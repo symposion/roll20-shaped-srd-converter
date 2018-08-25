@@ -1,0 +1,38 @@
+{
+  "name": "roll20-shaped-srd-converter",
+  "version": "1.0.0",
+  "description": "Simple library for converting 5e Shaped Script JSON to a format compatible with Roll20 5e Compendium",
+  "main": "srd-converter.js",
+  "dependencies": {
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "jest": "^20.0.4"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/symposion/roll20-shaped-srd-converter/"
+  },
+  "author": "lucian@symposion.co.uk",
+  "license": "ISC",
+  "jest": {
+    "testEnvironment": "node",
+    "moduleFileExtensions": [
+      "js"
+    ],
+    "moduleDirectories": [
+      "node_modules",
+      "<rootDir>"
+    ],
+    "moduleNameMapper": {},
+    "modulePathIgnorePatterns": [
+      ".eslintrc.js"
+    ],
+    "notify": true,
+    "verbose": false,
+    "collectCoverage": false
+  }
+}
